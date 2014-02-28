@@ -1,3 +1,7 @@
+*	{
+	font-family: Verdana;
+}
+
 #list 	{
 	margin-left: auto;
 	margin-right: auto;
@@ -11,7 +15,7 @@
 
 #addItems {
 	text-align: center;
-	font-size: 120%;
+	font-size: 110%;
 	display: inline-block;
 	border: none;
 	height: 25px;
@@ -33,7 +37,7 @@
 	margin-bottom: 10px;
 }
 
-.check {
+.delete {
 	position: relative;
 	border-radius: 3px;
 	border: 1px solid black;
@@ -56,7 +60,7 @@
 	border: 1px solid black;
 }
 
-.check:hover {
+.delete:hover {
 	border: 1px solid gray;
 	color: gray;
 }
@@ -72,6 +76,10 @@ div  {
 	padding: 10px;
 }
 
-*	{
-	font-family: Verdana;
+.active {
+	display: block;
+}
+
+.inactive {
+	display: none;
 }
