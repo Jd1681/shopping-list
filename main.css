@@ -70,7 +70,7 @@
 }
 
 .purchase {
-	background-image: url("images/check.png");
+	background-image: url("check.png");
 	z-index: 1;
 	position: relative;
 	display: inline-block;
