@@ -6,7 +6,7 @@ $(document).ready(function(){
  	$(this).parent().toggleClass('bought need');
  });
   $('.add').mousedown(function() {
-  	var newItem = document.getElementbyID("addItems").string;
+  	var newItem = document.getElementbyID("addItems").val();
   	$('#list').append(newItem);
   });
 });
