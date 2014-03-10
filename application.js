@@ -1,6 +1,6 @@
 $(document).ready(function(){
  $('.delete').mousedown(function() {
- 	$(this).parent().hide();
+ 	$(this).parent().remove();
  });
   $('.purchase').mousedown(function() {
  	$(this).parent().toggleClass('bought need');

@@ -76,6 +76,7 @@
 	display: inline-block;
 	float: left;
 	border: 1px solid black;
+	padding: 0px;
 }
 
 .delete:hover {
